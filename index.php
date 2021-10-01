@@ -26,8 +26,12 @@ if(isset($_POST['submit'])){
     />
     <meta property="og:image" content="img/introduction.png" />
     <meta
+      property="og:url"
+      content="https://manuel-morales-portfolio.herokuapp.com/"
+    />
+    <meta
       property="og:description"
-      content="App Para Buscar Autos que muestra imagenes de automoviles cuando le das click en la descripcion de los autos."
+      content="The portfolio from the Web developer Manuel Morales"
     />
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:image" content="img/introduction.png" />
