@@ -219,6 +219,9 @@ li {
     justify-content: space-evenly;
   }
 }
+.intro {
+  overflow: hidden;
+}
 .intro h3 {
   color: var(--clr-sub);
   margin-top: 1rem;
@@ -246,8 +249,7 @@ li {
   margin-bottom: 6rem;
 }
 .intro .info {
-  font-size: 2.2rem !important;
-  margin-left: 2rem;
+  font-size: 1rem !important;
   margin-bottom: 2rem;
 }
 @media (min-width: 768px) {
@@ -1118,10 +1120,10 @@ footer .social-networks a {
   font-size: 2.5rem;
   color: #211f1f;
 }
-footer .container-icon a:hover {
+footer .container-icon:hover a {
   animation: icon 0.5s ease;
 }
-footer .social-networks a:hover {
+footer .social-network:hover a {
   animation: icon 0.5s ease;
 }
 @keyframes icon {
@@ -1135,12 +1137,6 @@ footer .social-networks a:hover {
 .navigation-footer {
  display: flex;
 }
-@media (max-width: 500px) {
-  .navigation-footer {
-    flex-direction: column;
-    column-gap: 2rem;
-  }
-}
 @media (min-width: 768px) {
  .navigation-footer {
   justify-content: space-evenly;
@@ -1149,12 +1145,15 @@ footer .social-networks a:hover {
 }
 }
 .navigation-footer a {
+  display: block;
+}
+.navigation-footer a {
   text-align: center;
   font-size: 1.9rem;
   text-decoration: none;
   color: #0088cc;
   padding: 1rem 2rem;
-  margin: 2rem 1rem;
+  
   font-weight: 900;
   transition: all ease-in-out 1s;
 }
