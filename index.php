@@ -260,7 +260,7 @@ if(isset($_POST['submit'])){
     
         </div>
    <div class="container-contact">
-  <form class="contact" method="post" id="form" action="index.php">
+  <form class="contact" method="POST" id="form" action="index.php">
     <p>Write Me</p>
     <input type="name" placeholder="Name" class="input" name="name" required><br>
     <input type="email" placeholder="email" class="input" name="email" required><br>
